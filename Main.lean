@@ -1,4 +1,5 @@
 import RegexEngine
 
 def main : IO Unit :=
-  IO.println s!"Hello, {hello}!"
+  let r := Regex.concat (Regex.char 'a') (Regex.char 'b')
+  IO.println s!"{accept r "ab"}"
