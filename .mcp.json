@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "lean-lsp": {
+      "args": [
+        "lean-lsp-mcp"
+      ],
+      "command": "/nix/store/jiwzxayklgiacpgj0fivzk7abp7gm6bm-uv-0.8.19/bin/uvx"
+    },
+    "nixos": {
+      "args": [],
+      "command": "/nix/store/j7y0q766w4knvcj6dn6jrqbfk1jgfhcb-mcp-nixos-1.0.2/bin/mcp-nixos",
+      "env": {}
+    }
+  }
+}

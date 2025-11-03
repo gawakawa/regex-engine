@@ -1,0 +1,10 @@
+name = "RegexEngine"
+version = "0.1.0"
+defaultTargets = ["regexengine"]
+
+[[lean_lib]]
+name = "RegexEngine"
+
+[[lean_exe]]
+name = "regexengine"
+root = "Main"
